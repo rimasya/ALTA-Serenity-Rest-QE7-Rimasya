@@ -1,5 +1,6 @@
 Feature: Reqres feature tugas
 
+@Tugas
   Scenario Outline: Put update body user with valid json
     Given Put update body user with valid json with id <id>
     When Send put update body user request

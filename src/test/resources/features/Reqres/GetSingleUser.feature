@@ -1,4 +1,5 @@
 Feature: Reqres Feature tugas
+
 @Tugas
 Scenario Outline: Get single user with valid parameter pages
 Given Get single user with parameter page <id>
